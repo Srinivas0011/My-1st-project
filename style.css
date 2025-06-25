@@ -62,9 +62,14 @@ section{
     cursor: pointer;
     color:white;
     background-color:#48cfad;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
 }
 .submit:hover{
     background-color: green;
+    
 }
 input{
     border-radius: 5px;
@@ -91,4 +96,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.button{ 
+    transition: all 0.3s linear 0.3s;
+
+}
+.button:hover{
+    transform: translateY(-10px);
 }
